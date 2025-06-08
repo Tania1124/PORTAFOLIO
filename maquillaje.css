@@ -1,0 +1,38 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  line-height: 1.6;
+  background: #ff00cc;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+header, footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #f2f2f2;
+  color: black;
+}
+
+h1 {
+  color: #333;
+}
+
+a {
+  color: #0066cc;
+}
+
+#sobre-mi {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#sobre-mi img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
